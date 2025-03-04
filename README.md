@@ -15,17 +15,17 @@ $ npm install --memenispositive
 ```js
 const memenisPositive = require('memenispositive');
 
-memenisPositive(1);
+memenisPositive(3);
 //=> true
 
 memenisPositive(0);
 //=> false
 
-memenisPositive(-1);
+memenisPositive(-2);
 //=> false
 
-memenisPositive('1');
+memenisPositive('4');
 //=> false
 
-memenisPositive(Number(1))
+memenisPositive(Number(5))
 //=> true
